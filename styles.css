@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hidden{
+    display: none;
+}
+
+button{
+    border: none;
+    background: #045de9;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5%;
+    font-weight: 600;
+    width: 90px;
+}
+
+#container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+#wrapper{
+    text-align: center;
+    padding: 7em;
+    width: 100%;
+}
+
+#wrapper button{
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+    padding: 15px 30px;
+    width: 120px;
+}
+
+.quiz-container{
+    width: 100%;
+    height: 270px;
+    position: relative;
+    margin-top: 2em;
+}
+
+#text-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2em;
+}
+
+h1{
+    width: 90%;
+}
+
+input{
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    padding: 3px 6px;
+}
+
+.border{
+    border: 1px solid gray;
+}
+
+.borderBottom{
+    border-bottom: 1px solid black;
+}
+
+#buttons-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    bottom: 2.5em;
+}
+
+#bar-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+#progress-bar{
+    width: 90%;
+    background: #f3f3f3;
+    height: 8px;
+}
+
+#progress{
+    width: 0%;
+    background: #4BB543;
+    height: 8px;
+}
+
+.finish{
+    background: #4BB543;
+}
+
+.finished{
+    text-align: center;
+    padding: 3em;
+    font-size: 1.5rem;
+}
+
+#points-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#points{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-right: 7px;
+}
+
+#correct-answers-container{
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#correct-answers{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 9px;
+}
+
+#restart{
+    width: 120px;
+    padding: 15px 30px;
+    margin-top: 3em;
+}
+
+#text-container span,
+#bar-container span{
+    color: grey;
+}
+
+.popup{
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}

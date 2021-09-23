@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <img src="./img/banner.jpg" alt="banner">
+        <div id="wrapper">
+			<button>START</button>
+		</div>
+        <div class="quiz-container hidden">
+            <div id="text-container">
+                <h1></h1>
+                <span>10 points</span>
+            </div>
+            <form id="quiz-form">
+                <input class="answer1" type="text" placeholder="Answer">
+                <input class="answer2 hidden" type="text" placeholder="Answer">
+                <input class="answer3 hidden" type="text" placeholder="Answer">
+                <input class="answer4 hidden" type="text" placeholder="Answer">
+                <input class="answer5 hidden" type="text" placeholder="Answer">
+                <input class="answer6 hidden" type="text" placeholder="Answer">
+                <input class="answer7 hidden" type="text" placeholder="Answer">
+                <input class="answer8 hidden" type="text" placeholder="Answer">
+                <input class="answer9 hidden" type="text" placeholder="Answer">
+                <input class="answer10 hidden" type="text" placeholder="Answer">
+            </form>
+            <ul></ul>
+            <div id="buttons-container">
+                <button id="prev">PREV</button>
+                <button type="submit" class="finish hidden" form="quiz-form">FINISH</button>
+                <button id="next">NEXT</button>
+            </div>
+            <div class="popup hidden"></div>
+            <div id="bar-container">
+                <span>0%</span>
+                <div id="progress-bar">
+                    <div id="progress"></div>
+                </div>
+                <span>100%</span>
+            </div>
+        </div>
+        <div class="finished hidden">You finished the quiz with a total of
+            <div id="points-container"><span id="points"></span>points</div>
+            <div id="correct-answers-container">You answered <span id="correct-answers"></span> questions correctly</div>
+            <button id="restart">RESTART</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
